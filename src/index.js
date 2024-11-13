@@ -8,7 +8,7 @@ function calculateAge(){
         alert('Insira uma data');
     } else {
         const age = getAge(birthdayValue);
-        resultEl.innerHTML = `Sua idade é ${age} ${age > 1 ? "years" : "year"}`;
+        resultEl.innerHTML = `Sua idade é de ${age} ${age > 1 ? "anos" : "ano"}`;
     }
 }
 
