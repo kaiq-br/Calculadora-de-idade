@@ -1,15 +1,20 @@
 :root{
+    --fundoCor: #10553B;
+    --fundoCor2: #2CE59E;
+    --textoCor: #06573D;
+    --textoCotBotao: rgb(6, 87, 61);
+    --botaoCor: #7cffd3;
 
 }
 
 body{
-    background-color: #10553B;
+    background-color: var(--fundoCor);
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-    color: #06573D;
+    color: var(--textoCor);
 }
 
 div {
-    background-color: #2CE59E;
+    background-color: var(--fundoCor2);
     border-radius: 1em;
     text-align: center;
     padding-top: 0.009em;
@@ -32,13 +37,13 @@ h1{
 }
 
 #btn{
-    background-color: #7cffd3;
+    background-color: var(--botaoCor);
     padding: 0.5em 1em 0.5em 1em;
     font-size: medium;
     font-weight: bolder;
     border-radius: 0.2em;
     border: 0px solid;
-    color: rgb(6, 87, 61);
+    color: var(--textoCotBotao);
 }
 
 #result{
